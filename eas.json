@@ -1,0 +1,50 @@
+{
+  "cli": {
+    "version": ">= 16.10.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": false,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_cHJvdWQtcmFwdG9yLTg5LmNsZXJrLmFjY291bnRzLmRldiQ",
+        "CONVEX_DEPLOYMENT": "dev:acrobatic-tern-435",
+        "EXPO_PUBLIC_CONVEX_URL": "https://acrobatic-tern-435.convex.cloud",
+        "EXPO_PUBLIC_CONVEX_SITE": "https://acrobatic-tern-435.convex.site",
+        "GOOGLE_MAPS_APIKEY": "something"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "developmentClient": false,
+      "ios": {
+        "simulator": true
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_cHJvdWQtcmFwdG9yLTg5LmNsZXJrLmFjY291bnRzLmRldiQ",
+        "CONVEX_DEPLOYMENT": "dev:acrobatic-tern-435",
+        "EXPO_PUBLIC_CONVEX_URL": "https://acrobatic-tern-435.convex.cloud",
+        "EXPO_PUBLIC_CONVEX_SITE": "https://acrobatic-tern-435.convex.site",
+        "GOOGLE_MAPS_APIKEY": "something"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "developmentClient": false,
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_cHJvdWQtcmFwdG9yLTg5LmNsZXJrLmFjY291bnRzLmRldiQ",
+        "CONVEX_DEPLOYMENT": "dev:acrobatic-tern-435",
+        "EXPO_PUBLIC_CONVEX_URL": "https://acrobatic-tern-435.convex.cloud",
+        "EXPO_PUBLIC_CONVEX_SITE": "https://acrobatic-tern-435.convex.site",
+        "GOOGLE_MAPS_APIKEY": "something"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

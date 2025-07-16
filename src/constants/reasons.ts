@@ -1,0 +1,20 @@
+export const reasons = [
+  { id: 1, reason: "No longer buying or selling items in this area" },
+  { id: 2, reason: "App is difficult to use or navigate" },
+  { id: 3, reason: "Listings are outdated or irrelevant" },
+  { id: 4, reason: "Too many unwanted notifications" },
+  { id: 5, reason: "Switched to a better marketplace app" },
+  { id: 6, reason: "Privacy or security concerns" },
+  { id: 7, reason: "Received spam or suspicious messages" },
+  { id: 8, reason: "Not enough relevant listings available" },
+  { id: 9, reason: "High data or battery usage" },
+  { id: 10, reason: "Too many ads or promotional content" },
+  { id: 11, reason: "App takes up too much storage space" },
+  { id: 12, reason: "Lack of new features or improvements" },
+  { id: 13, reason: "Negative reviews or feedback from others" },
+  {
+    id: 14,
+    reason: "I use a different platform (e.g., WhatsApp, Facebook Marketplace)",
+  },
+  { id: 15, reason: "Other" },
+];
