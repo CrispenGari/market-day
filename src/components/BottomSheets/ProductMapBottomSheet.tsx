@@ -180,6 +180,9 @@ const ProductMapBottomSheet = React.forwardRef<
             }}
             destination={{ latitude: location.lat, longitude: location.lon }}
             apikey={Constants.expoConfig?.extra?.GOOGLE_MAPS_APIKEY}
+            strokeWidth={4}
+            strokeColor={COLORS.secondary}
+            strokeColors={[COLORS.tertiary, COLORS.secondary]}
           />
           <Marker
             title={product?.title}
